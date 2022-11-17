@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 16px;
+	font-weight: normal;
+	color: #e3e3e3;
+	background: #1e1e1e;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.title {
+	display: inline-block;
+	font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.avatar {
+	height: 100%;
+	border-radius: 10px;
+	filter: brightness(0.9);
+}
+
+.info {
+	color: #e3e3e3;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	height: 220px;
+	width: 90%;
+}
+
+.info-text {
+	height: 100%;
+	margin-left: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.text-block span:last-child {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.text-block:last-child span:last-child {
+	margin-bottom: 0;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	border-radius: 10px;
+	background: rgb(41, 41, 41);
+	box-sizing: border-box;
+	padding: 15px 20px;
+	margin-bottom: 20px;
+}
+
+.card span {
+	align-self: center;
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.card {
+}
+
+.goals li {
+	margin-bottom: 15px;
+}
+
+.goals ul {
+	margin-left: 30px;
+}
+
+.study-time div {
+	align-self: center;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 15%;
+}
+
+@media (max-width: 1200px) {
+	.study-time div {
+		width: 30%;
+	}
+}
+
+@media (max-width: 600px) {
+	.study-time div {
+		width: 60%;
+	}
+}
+
+.study-time ul {
+	list-style-type: none;
+}
+
+.study-time ul li {
+	margin-bottom: 8px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table thead {
+	border-bottom: 1px solid #e3e3e3;
+}
+
+table th {
+	text-align: center;
+	padding-bottom: 8px;
+}
+
+table td,
+table th {
+	text-align: center;
+}
+
+table td {
+	padding-top: 8px;
+}
+
+table tr td:first-child {
+	text-decoration: underline;
+}
+
+.contacts a {
+	width: 70px;
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-decoration: none;
+	padding: 5px;
+}
+
+.contacts img {
+	width: 70px;
+	margin-bottom: 5px;
+}
+
+.contacts a span {
+	font-size: 12px;
+	color: #e3e3e3;
+	margin-bottom: 0;
+}
+
+.contacts a:hover {
+	color: #e3e3e3;
+	text-decoration: none;
+	border-radius: 10px;
+	background: #545454;
+	padding: 5px;
+}
+
+.contacts a:active span {
+	color: #039be5;
+}
